@@ -1,0 +1,71 @@
+#NEXUS
+[R-package APE, Wed Aug 31 14:48:58 2022]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 29;
+	TAXLABELS
+		Escherichia coli str. K-12 substr. MG1655
+		Chlamydomonas reinhardtii
+		Drosophila melanogaster
+		Paramecium caudatum
+		Drosophila subobscura
+		Thalassiosira pseudonana
+		Emiliania huxleyi
+		Sepsis punctum
+		Simocephalus vetulus
+		Daphnia pulex
+		Daphnia magna
+		Symbiodinium
+		Rhizoglyphus robini
+		Callosobruchus maculatus
+		Pseudomonas
+		Chaetoceros simplex
+		Neurospora discreta
+		Chironomus riparius
+		Tribolium castaneum
+		Caenorhabditis remanei
+		Tetrahymena thermophila
+		Acartia tonsa
+		Ostreococcus tauri
+		Synechococcus
+		Poecilia reticulata
+		Brassica napus
+		Microcystis aeruginosa
+		Phytophthora infestans
+		Cryptococcus neoformans
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Escherichia coli str. K-12 substr. MG1655,
+		2	Chlamydomonas reinhardtii,
+		3	Drosophila melanogaster,
+		4	Paramecium caudatum,
+		5	Drosophila subobscura,
+		6	Thalassiosira pseudonana,
+		7	Emiliania huxleyi,
+		8	Sepsis punctum,
+		9	Simocephalus vetulus,
+		10	Daphnia pulex,
+		11	Daphnia magna,
+		12	Symbiodinium,
+		13	Rhizoglyphus robini,
+		14	Callosobruchus maculatus,
+		15	Pseudomonas,
+		16	Chaetoceros simplex,
+		17	Neurospora discreta,
+		18	Chironomus riparius,
+		19	Tribolium castaneum,
+		20	Caenorhabditis remanei,
+		21	Tetrahymena thermophila,
+		22	Acartia tonsa,
+		23	Ostreococcus tauri,
+		24	Synechococcus,
+		25	Poecilia reticulata,
+		26	Brassica napus,
+		27	Microcystis aeruginosa,
+		28	Phytophthora infestans,
+		29	Cryptococcus neoformans
+	;
+	TREE * UNTITLED = [&R] (((1:7.653952423,15:7.653952423)Gammaproteobacteria:32.9478725,(24:13.00447865,27:13.00447865)Cyanobacteria:27.59734627)Bacteria:9.398175078,(7:40.60182492,((12:14.34707509,(4:7.653952423,21:7.653952423)Oligohymenophorea:6.693122671)Alveolata:6.600629723,(28:15.79294818,(6:7.653952423,16:7.653952423)Coscinodiscophyceae:8.13899576)Stramenopiles:5.154756634)Sar:19.6541201,(26:25.38573194,(2:13.00447865,23:13.00447865)Chlorophyta:12.38125328)Viridiplantae:15.21609298,((17:17.3593107,29:17.3593107)Dikarya:10.71161412,(25:23.03618817,(20:19.0680698,(13:13.00447865,(((14:3.490399893,19:3.490399893)Cucujiformia:1.600413872,(18:4.27358115,(8:2.738545887,(3:0.6481500054,5:0.6481500054)Sophophora:2.090395881)Acalyptratae:1.535035263)Diptera:0.8172326155)Endopterygota:4.59666192,(22:8.64323401,(9:2.015609342,(10:1.319448225,11:1.319448225)Daphnia:0.6961611169)Daphniidae:6.627624668)Pancrustacea:1.044241675)Pancrustacea:3.317002969)Arthropoda:6.063591147)Ecdysozoa:3.968118366)Bilateria:5.034736649)Opisthokonta:12.5309001)Eukaryota:9.398175078)cellular_organisms;
+END;

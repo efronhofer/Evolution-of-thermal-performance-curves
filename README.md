@@ -3,11 +3,11 @@
 Sarthak P. Malusare*, Giacomo Zilio*, Emanuel A. Fronhofer*
 *ISEM, Université de Montpellier, CNRS, IRD, EPHE, Montpellier, France
 
-Contacts:  sarthak-pravin.malusare@etu.umontpellier.fr 
+Contacts:  sarthak-pravin.malusare@etu.umontpellier.fr
 	   giacomo.zilio@umontpellier.fr	  
 	   emanuel.fronhofer@umontpellier.fr
 
-Responsible for collecting data: Sarthak P. Malusare 
+Responsible for collecting data: Sarthak P. Malusare
 Responsible for statistical analysis and code annotation: Giacomo Zilio
 
 ######## Title
@@ -21,8 +21,8 @@ https://www.biorxiv.org/content/10.1101/2022.05.09.491229v2
 
 ######## Overview of folders
 
-### The results of the study are based on 4 MAIN analyses, each with its own folder. 
-0-analysis_JEB: 
+### The results of the study are based on 4 MAIN analyses, each with its own folder.
+0-analysis_JEB:
 -R script to reproduce the statistical analysis
 -dataset (0-analysis_JEB.txt)
 -README file describing the dataset columns
@@ -62,4 +62,5 @@ Funnel_JEB folder:
 -README file describing each dataset columns
 
 
-
+### phylogenetic tree
+The Phylogenetic_Tree_JEB folder contains the phylogenetic tree generated with the taxize package as described in the main text as a .nex file.
